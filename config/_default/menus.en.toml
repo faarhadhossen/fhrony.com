@@ -1,0 +1,17 @@
+############# English navigation ##############
+
+[[main]]
+name = "Elements"
+url = "elements/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 3
+
+# main menu
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 3
