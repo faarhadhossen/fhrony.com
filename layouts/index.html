@@ -16,7 +16,7 @@
         <ul class="list-inline social-links mt-4">
           {{ range . }}
             <li class="list-inline-item me-2 mb-1">
-              <a class="p-1" href="{{ .link | safeURL }}" title="title" target="_blank" rel="nofollow">
+              <a class="p-1" href="{{ .link | safeURL }}" title="{{.title}}" target="_blank" rel="nofollow">
                 <i class="{{.icon}}"></i>
               </a>
             </li>

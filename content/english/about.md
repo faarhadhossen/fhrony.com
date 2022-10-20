@@ -6,7 +6,7 @@ keywords: []
 # meta description
 description: "This is meta description"
 # save as draft
-draft: true
+draft: false
 ---
 
 My name is farhad. I am a digital marketer. I enjoy learning new things on a daily basis and sharing my knowledge with others.

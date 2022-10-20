@@ -1,9 +1,10 @@
 ############# English navigation ##############
 
+
 [[main]]
-name = "Elements"
-url = "elements/"
-weight = 1
+name = "Blog"
+url = "blog/"
+weight = 2
 
 [[main]]
 name = "About"
@@ -14,4 +15,4 @@ weight = 3
 [[main]]
 name = "Contact"
 url = "contact/"
-weight = 3
+weight = 4
