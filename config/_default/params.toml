@@ -1,0 +1,116 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/fhrony.png"
+# logo
+logo = "images/fhrony-logo.png"
+# use `x` with logo_width, example: "100x".
+# Note: logo_width is not work with .svg file
+logo_width = "200x"
+# logo text will only show when logo is missing.
+logo_text = "Farhad Hossen"
+# navbar fixed to top
+navbar_fixed = true
+# OpenGraph / Twitter Card metadata
+description = "Farhad Hossen is digital marketing professional with over 3 years of experience in the industry. Currently, he is serving as the Head of Marketing at Themefisher. He is passionate about helping startups grow their businesses using proven digital marketing strategies and data-driven approaches."
+author = "Farhad Hossen"
+image = "" # this image will be used as fallback if a page has no image of its own
+# contact info
+address = ""
+mobile = ""
+email = ""
+# contact form action
+contact_form_action = "https://formspree.io/f/mleyeala" # contact form works with https://formspree.io
+# search
+search = false 
+
+
+# Posts related Titles & Contents
+categories_title = "Blog Categories"
+posts_title = "Featured"
+featured_post_title = "Featured Posts"
+recent_post_title = "Recent Posts"
+featured_post_button = "Featured"
+recent_post_button = "Recent"
+read_more_button = "Read more"
+previous_button = "Previous"
+next_button = "Next"
+related_posts = "Keep Reading"
+showing_posts = "My Thoughts and Insights"
+no_categories_found = "No Categories Found"
+no_tags_found = "No Tags Found"
+
+mainSections = ["blog"]
+# about widget content
+about_widget_content = "I help startups grow their businesses using proven digital marketing strategies and data-driven approaches. </br> </br> Let's stay connected on social media."
+# footer content
+footer_content = ""
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script= ""
+# copyright
+theme_copyright = true
+copyright = "Copyright &copy; 2023 fhrony.com"
+
+# 404
+error_404_text = "404 Page Not Found!"
+error_404_button = "Back To Home"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Banner
+[banner]
+enable = true
+title_small = "Hi there 👋, my name is"
+title_large = "Farhad Hossen" 
+image = "images/fhrony.png"
+background_image = "/images/banner-bg-shape.svg"
+content = "I help startups grow their businesses using proven digital marketing strategies and data-driven approaches. </br> </br> Sign up to my mailing list to receive exclusive content and updates about marketing, startup, life, work and more. No spam, only good stuff."
+
+button_label = "Read My Posts"
+button_link = "blog/"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["about", "categories", "recent-post", "newsletter"]
+# available widget : about,categories,newsletter,recent-post
+
+
+# Subscription
+[subscription]
+enable = false
+newsletter_title = "Keep up with Me"
+newsletter_invitation = "Sign up to my mailing list to receive exclusive content and updates about marketing, startup, life, work and more."
+newsletter_placeholder = "your best email address"
+# newsletter_reminder_a = "By Singing Up, You Agree To"
+# newsletter_reminder_b = "Privacy Policy"
+newsletter_button = "Sign Up"
+# mailchimp subsciption
+mailchimp_form_action = "https://fhrony.us10.list-manage.com/subscribe/post?u=c3f358c2d2cc37e548e4c6145&amp;id=a5984e337d&amp;f_id=00b7d4e5f0" # replace this url with yours
+mailchimp_form_name = "b_c3f358c2d2cc37e548e4c6145_a5984e337d" # replace this code with yours
+
+
+############################# social site ########################
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/in/heyfhrony"
+
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/heyfhrony"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/heyfhrony"
+
